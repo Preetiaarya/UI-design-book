@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(197, 196, 194);
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: rgb(61, 69, 74);
+}
+
+.container {
+    display: flex;
+    
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 8px;
+    width: 90%;
+    
+}
+.btn{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 8px;
+    color: white;
+    background-color: rgb(61, 69, 74);
+}

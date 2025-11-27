@@ -1,0 +1,61 @@
+.banner2 {
+    background: #f7fbff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 1px solid #e1e1e1;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 3px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .top-bar a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .top-bar button {
+    background: white;
+    color: #007bff;
+    padding: 8px 14px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .banner2-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .text-box h1 {
+    font-size: 28px;
+  }
+  
+  .text-box p {
+    margin: 15px 0;
+  }
+  
+  .signup {
+    background: #00A4EF;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .circles img {
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+  }
+  

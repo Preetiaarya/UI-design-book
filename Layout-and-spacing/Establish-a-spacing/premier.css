@@ -1,75 +1,84 @@
 body {
-    padding: 0;
-    margin: 0;
+    padding: 20px;
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card {
+.hotel-img {
+    width: 50%;
+    height: auto;
+}
+
+.hotel-card {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 24px;
-    margin: 24px auto;
-    width: 700px;
-    gap: 24px;
+    margin: 0 auto;
+    width: 600px;
     background: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
 
 }
 
-.img-sec img {
-    width: 100%;
-    height: 100%;
-
+.hotel-content {
+    width: 50%;
+    padding: 24px;
 }
 
-.img-sec {
-    width: 380px;
-    height: 500px;
-
-}
-
-.content {
-    padding: 24px auto;
-}
-
-.content .head-section h3 {
+.suite-type {
     color: rgb(67, 132, 110);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
-.content .head-section .avg {
-    display: flex;
-    flex-direction: row;
-}
-
-.content .head-section h1 {
+.price {
+    font-size: 28px;
     font-weight: 400;
+    margin: 0;
 }
 
-.content .head-section .btn {
-    display: flex;
+.price span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 6px;
 }
 
-button {
-    width: 100%;
-    background-color: rgb(214, 198, 18);
-    color: rgb(84, 21, 21);
-    padding: 12px 18px;
+.rates-btn {
+    width: 75%;
+    margin-top: 20px;
+    background: #f4b73a;
     border: none;
-    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(151, 26, 26);
     font-weight: 700;
 }
 
-.detail-section h3 {
-    font-weight: 400;
-    color: #555;
-    gap: 12px;
-
+.fav-btn {
+    margin-left: 10px;
+    border: 2px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    padding: 10px 14px;
+    cursor: pointer;
 }
 
-.detail-section li {
-    color: #555;
-    gap: 12px;
+.highlights-title {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 1px;
+}
 
+.highlights {
+    margin-top: 12px;
+    padding-left: 18px;
+    line-height: 1.8;
+}
+
+.highlights li {
+    font-size: 14px;
+    color: #444;
 }

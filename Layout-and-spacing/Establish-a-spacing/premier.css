@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 24px;
+    margin: 24px auto;
+    width: 700px;
+    gap: 24px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.img-sec img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-sec {
+    width: 380px;
+    height: 500px;
+
+}
+
+.content {
+    padding: 24px auto;
+}
+
+.content .head-section h3 {
+    color: rgb(67, 132, 110);
+}
+
+.content .head-section .avg {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .head-section h1 {
+    font-weight: 400;
+}
+
+.content .head-section .btn {
+    display: flex;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(214, 198, 18);
+    color: rgb(84, 21, 21);
+    padding: 12px 18px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.detail-section h3 {
+    font-weight: 400;
+    color: #555;
+    gap: 12px;
+
+}
+
+.detail-section li {
+    color: #555;
+    gap: 12px;
+
+}

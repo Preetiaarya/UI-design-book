@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.checkout-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.checkout-card {
+    width: 450px;
+    background: white;
+}
+
+.brand {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.items-count {
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.item-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.item-row img {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.item-info h4 {
+    font-size: 16px;
+}
+
+.desc {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.price {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.discount-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.discount-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.discount-box button {
+    padding: 8px 16px;
+    background: #92a6af;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.summary .line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#sub-tax{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+}
+
+.total-amount {
+    color: #000;
+}

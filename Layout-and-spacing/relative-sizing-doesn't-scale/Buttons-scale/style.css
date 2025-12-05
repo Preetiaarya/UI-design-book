@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    background: rgb(242, 241, 241);
+    border: 1px solid lightgray;
+    padding: 40px;
+    margin: 20px auto;
+
+}
+
+button {
+    background-color: rgb(50, 121, 243);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-A {
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.btn-B {
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.btn-C {
+    font-size: 14px;
+    padding: 10.5px 14px;
+}
+
+.btn-D {
+    font-size: 12px;
+    padding: 9px 12px;
+}

@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #eeeded;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.step-number {
+    background: #0b6eb8;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 50%;
+}
+
+.section-header .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.section-header .link {
+    margin-left: auto;
+    font-size: 13px;
+    color: #0b6eb8;
+    text-decoration: none;
+}
+
+.field-group {
+    margin-bottom: 20px;
+}
+
+.field-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #464242;
+}
+
+.field-group input {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    font-size: 14px;
+}

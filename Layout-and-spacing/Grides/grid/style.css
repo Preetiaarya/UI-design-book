@@ -1,0 +1,28 @@
+body {
+    background: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #d8dee5;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 600px;
+    gap: 10px;
+}
+
+.box {
+    background: rgba(255, 0, 0, 0.15);
+
+}

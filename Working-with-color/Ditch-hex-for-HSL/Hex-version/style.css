@@ -1,0 +1,65 @@
+.card {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 25px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.left li {
+    margin: 10px 0;
+    font-size: 16px;
+
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.hex1 {
+    background: #03369E;
+}
+
+.hex2 {
+    background: #507DD7;
+}
+
+.hex3 {
+    background: #9FB9ED;
+}
+
+.donut {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    background: conic-gradient(#03369E 0 35%,
+            #507DD7 35% 75%,
+            #9FB9ED 75% 100%);
+}
+
+.donut::after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}

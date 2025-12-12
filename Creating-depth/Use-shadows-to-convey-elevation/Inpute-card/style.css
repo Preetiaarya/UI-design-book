@@ -1,0 +1,70 @@
+.page {
+    width: 600px;
+    padding: 60px;
+    margin: 40px auto;
+    background: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    background: #ffffff;
+    width: 380px;
+    padding: 40px 35px;
+    border-radius: 16px;
+    text-align: center;
+
+
+    box-shadow: 0 15px 35px hsla(0, 0%, 0%, 0.2);
+}
+
+.lock-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    color: #3b82f6;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #6d7581;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.password-box {
+    display: flex;
+    border: 1px solid #dce2eb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.password-box input {
+    flex: 1;
+    font-weight: 700;
+    padding: 18px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 8px;
+    background: #f0f4f9;
+
+}
+
+.arrow-btn {
+    width: 60px;
+    background: #38a2f3;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+}

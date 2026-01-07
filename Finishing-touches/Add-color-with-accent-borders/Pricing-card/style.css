@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.pricing-card {
+    width: 320px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.top-bar {
+    height: 6px;
+    background: #1fa4e5;
+}
+
+.header {
+    padding: 24px;
+}
+
+.header h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #1f2933;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+.price-section {
+    background: #f8fbff;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 500;
+    color: #1f2933;
+}
+
+.price-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.features {
+    list-style: none;
+    padding: 24px;
+    margin: 0;
+}
+
+.features li {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #374151;
+    position: relative;
+    padding-left: 24px;
+}
+
+.features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.btn {
+    width: calc(100% - 48px);
+    margin: 0 24px 24px;
+    padding: 12px 0;
+    background: transparent;
+    border: 2px solid #d1d5db;
+    color: #1f2933;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    border-color: #1fa4e5;
+    color: #1fa4e5;
+}
